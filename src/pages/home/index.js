@@ -7,7 +7,7 @@ import ProductCard from '../../components/productCard';
 const Home = () => {
   const RenderProduct = ({item}) => <ProductCard item={item} />;
   return (
-    <View className="px-2">
+    <View className="px-2 flex-1">
       <View className="py-3">
         <Text className="text-purple-800 text-2xl font-bold">
           {Config.app.name}
